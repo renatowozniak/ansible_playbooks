@@ -1,5 +1,6 @@
 ---
  - hosts: all
+   connection: local
   
    tasks:
      - name: Realizar teste de pingPing
