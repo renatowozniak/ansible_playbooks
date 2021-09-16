@@ -4,4 +4,4 @@
   
    tasks:
      - name: Realizar teste de pingPing
-       shell: ping google.com
+       shell: ping 8.8.8.8 -c 4
