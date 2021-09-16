@@ -1,5 +1,6 @@
 ---
-  host: all
+  hosts: all
   
-  - name: Realizar teste de pingPing
-    shell: ping google.com
+  tasks:
+    - name: Realizar teste de pingPing
+      shell: ping google.com
