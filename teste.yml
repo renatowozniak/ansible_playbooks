@@ -1,0 +1,5 @@
+---
+  host: all
+  
+  - name: Realizar teste de pingPing
+    shell: ping google.com
