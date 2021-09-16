@@ -1,5 +1,5 @@
 ---
- - hosts: localhoster
+ - hosts: all
   
    tasks:
      - name: Realizar teste de pingPing
